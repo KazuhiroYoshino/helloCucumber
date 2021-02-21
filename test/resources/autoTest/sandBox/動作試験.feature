@@ -1,3 +1,4 @@
+#language: ja
 #Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
@@ -17,11 +18,11 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: 動作確認
+機能: 動作確認
   I want to use this template for my feature file
 
   @tag1
-  Scenario: テストシナリオ
-    Given ここは地球である
-    When 今日も日が昇る
-    Then 明日も日が昇る
+  シナリオ: テストシナリオ
+    前提 ここは地球である
+    もし 今日も日が昇る
+    ならば 明日も日が昇る
